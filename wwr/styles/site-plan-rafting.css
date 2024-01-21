@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #F7F9F9;
+    --secondary-color: #2081C3;
+    --accent1-color: #63D2FF;
+    --accent2-color: #78D5D7;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Raleway', serif;
+
+    --nav-background-color: #2081C3;
+    --nav-link-color: #F7F9F9;
+    --nav-hover-link-color: #78D5D7;
+    --nav-hover-background-color: #63D2FF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 30px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
