@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #F7F9F9;
+    --secondary-color: #2081C3;
+    --accent1-color: #63D2FF;
+    --accent2-color: #78D5D7;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Raleway', serif;
+
+    --nav-background-color: #2081C3;
+    --nav-link-color: #F7F9F9;
+    --nav-hover-link-color: #BED8D4;
+    --nav-hover-background-color: #63D2FF;
+}
+
+header {
+    padding: 10px;
+    background-color: var(--nav-background-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1000px;
+    margin: auto;
+    /*padding: 2em;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    padding: 15px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    color: #F7F9F9;
+    position: absolute;
+    margin: -2em 0em;
+    background-color: #2081C390;
+    padding: 0px 55px 0px 150px;
+}
+
+.hero p {
+    color:#F7F9F9;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: #151c3580;
+    margin: 25px 0px 0px 19px;
+}
+
+.hero article {
+    position: absolute;
+    text-align: justify;
+    margin-top: -188px;
+}
+
+.hero article img {
+    width: 14em;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 14px;
+}
