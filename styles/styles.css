@@ -35,7 +35,7 @@ nav a {
     font-weight: 600;
 }
 
-/* Main and aside (uses .grid class) */
+/* Main and aside (use .grid class) */
 
 main {
     grid-column: 2/3;
