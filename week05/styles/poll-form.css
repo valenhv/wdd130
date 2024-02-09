@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(27, 47, 61);
+    background: whitesmoke;
+}
+
+header {
+    background-color: rgb(109, 167, 213);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: whitesmoke;
+}
+
+form {
+    width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid rgb(109, 167, 213);
+    border-radius: 1rem;
+    background-color: rgb(217, 225, 234);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(109, 167, 213);
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+select {
+    margin-left: 35rem;
+}
+
+input[type="checkbox"] {
+    width: 1.4rem;
+    height: 2rem;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem 0;
+}
+
+button {
+    margin: auto;
+    padding: .5rem;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: rgb(109, 167, 213);
+    color: whitesmoke;
+}
