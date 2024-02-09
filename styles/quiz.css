@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: rgb(27, 47, 61);
+    background: whitesmoke;
+}
+
+header {
+    background-color: rgb(109, 167, 213);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+form {
+    width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(217, 225, 234);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 0px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+input, select, textarea {
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    padding: .5rem;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: rgb(109, 167, 213);
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
