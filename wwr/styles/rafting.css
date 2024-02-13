@@ -360,6 +360,10 @@ footer p {
     color: var(--nav-link-color);
 }
 
+.sociallinks {
+    text-decoration: none;
+}
+
 .sociallinks img {
     width: 5vh;
 }
