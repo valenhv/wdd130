@@ -1,9 +1,11 @@
 /* General */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 header, .grid, footer {
@@ -42,6 +44,11 @@ main {
     margin: 1rem
 }
 
+main p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
 aside {
     position: relative;
     width: 15rem;
@@ -59,8 +66,9 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 15vh;
+    top: 17vh;
     left: 32px;
+    font-size: 20px;
 }
 
 aside img {
@@ -71,7 +79,8 @@ aside img {
 
 h1 {
     color: steelblue;
-    border-bottom: 2px solid steelblue
+    border-bottom: 2px solid steelblue;
+    font-size: 30px;
 }
 
 main img {
@@ -81,6 +90,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 1rem;
 }
 
 p {
@@ -102,8 +112,12 @@ footer {
     padding: 1.5rem;
     border: 2px solid rgb(52, 158, 240);
     background-color: rgb(164, 212, 249);
-    color: rgb(15, 50, 96);
+    color: rgb(7, 25, 49);
     margin: 1rem;
+}
+
+.box a {
+    color: rgb(7, 25, 49);
 }
 
 .grid {
