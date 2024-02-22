@@ -61,8 +61,8 @@ header nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
 }
 
 .hero img {
@@ -132,7 +132,7 @@ p {
 
 .history {
     display: flex;
-    margin-top: 10px;
+    margin-bottom: 5vh;
 }
 
 #history-img {
@@ -146,7 +146,7 @@ p {
 .adventure {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
 }
 
 .adventure figure {
@@ -161,6 +161,14 @@ p {
 
 .adventure figcaption {
     text-align: center;
+}
+
+.adventure-text {
+    text-align: center;
+}
+
+.adventure-text p {
+    margin-bottom: 5vh;
 }
 
 /* Quick Contact section */
@@ -356,7 +364,7 @@ input, textarea {
 }
 
 .intro a {
-    margin-top: 2vh;
+    margin-top: 5vh;
 }
 
 .trip_grid {
@@ -504,6 +512,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-top: 5vh;
     margin-bottom: 0;
     padding: 20px;
     background-color: var(--nav-background-color);
