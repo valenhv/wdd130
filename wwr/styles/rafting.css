@@ -243,6 +243,10 @@ button:hover {
 
 /* Staff section */
 
+.staff {
+    margin-bottom: 5vh;
+}
+
 .staff-div {
     display: flex;
     justify-content: space-around;
@@ -251,6 +255,7 @@ button:hover {
 .staff img {
     max-width: 200px;
     height: auto;
+    border-radius: 8px;
 }
 
 .staff figcaption {
