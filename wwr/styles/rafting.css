@@ -228,6 +228,12 @@ button:hover {
     margin-bottom: 5vh;
 }
 
+.offices-div table {
+    max-width: 100px;
+    margin: 0 auto;
+    width: 70%;
+}
+
 .building {
     max-width: 100%;
     height: auto;
