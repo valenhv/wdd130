@@ -358,6 +358,32 @@ input, textarea {
     border-radius: 1rem;
 }
 
+/* Home form */
+
+.newsletter-form {
+    padding-top: 0;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    margin: 0;
+}
+
+#submit-button {
+    max-width: 8vw;
+    margin-left: 9vw;
+}
+
+
 /* Contact Icons */
 
 .contact-icon {
