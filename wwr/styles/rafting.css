@@ -69,14 +69,13 @@ header nav a:hover {
     display: block;
     width: 100%;
     height: 50vh;
-
+    border-radius: 8px;
 }
 
 .hero h1 {
     color: #F7F9F9;
     position: relative;
     text-align: center;
-    
 }
 
 .hero p {
@@ -139,6 +138,7 @@ p {
 #history-img {
     width: 16em;
     height: fit-content;
+    border-radius: 8px;
 }
 
 /* Adventure section */
@@ -156,6 +156,7 @@ p {
 .adventure img {
     width: 12rem;
     height: fit-content;
+    border-radius: 8px;
 }
 
 .adventure figcaption {
